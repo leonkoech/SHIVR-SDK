@@ -1,53 +1,111 @@
-# SHIVR - Subtle Haptics In Virtual Reality
+# SHIVR
 
-Simple unity SDK that brings the power of vibrotactile haptic feedback to developers using ultra-leap hand-tracking for simple and subtle hand interactions in Virtual Reality Environments.
+## Subtle Haptics in Virtual Reality (SHIVR)
 
-## Technologies Used
+<table>
+  <tr>
+    <td>
+      SHIVR is an innovative SDK that empowers developers to integrate vibrotactile haptic feedback with Ultraleap hand tracking for refined, subtle hand interactions within Virtual Reality (VR) environments. SHIVR is designed to elevate VR experiences, providing users with a deeper sense of immersion and engagement through nuanced tactile sensations.
+    </td>
+    <td>
+      <img src="https://github.com/leonkoech/SHIVR-Hardware/assets/39020723/e920845b-a6e6-4082-a98e-5a6693d505b5" alt="project overview" width="600px">
+    </td>
+  </tr>
+</table>
 
-- Ultraleap
-- ESP32
-- Arduino Uno
-- Unity
-- Oculus
+## Table of Contents
 
+- [Overview](#overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development Process](#development-process)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Future Work](#future-work)
+- [Team](#team)
+- [Demo and Showcase](#demo-and-showcase)
 
+## Overview
 
-## Inspiration
-The inspiration behind SHIVR - Subtle Haptics in Virtual Environments stemmed from the desire to enhance virtual reality experiences by integrating subtle haptic feedback. Recognizing the potential for an immersive touch element, our team embarked on a mission to redefine how users engage with virtual environments. 
+<table>
+  <tr>
+    <td>
+      SHIVR enhances the VR landscape by incorporating subtle haptic feedback into hand-tracking interactions. This innovation enriches the realism of VR environments and boosts user engagement by seamlessly blending tactile sensations with natural hand gestures.
+    </td>
+    <td>
+      <img src="https://github.com/leonkoech/SHIVR-SDK/assets/39020723/e149a019-6ff6-4d39-8f8d-32ad64bebecd" alt="Unity interface" width="500px">
+    </td>
+  </tr>
+</table>
 
-## What it does
-SHIVR leverages subtle haptic feedback through Ultraleap hand tracking technology to provide users with a more realistic and interactive virtual experience. By incorporating precise hand gestures and tactile sensations, it adds a new dimension to virtual environments, making them more engaging and responsive. 
+## Features
 
-## How we built it
-The development of SHIVR involved a comprehensive integration of Ultraleap hand tracking technology and vibrotactile haptic feedback with ESP32 and vibration sensors. Our team collaborated closely, combining expertise in virtual reality, software development, and hardware integration to create a seamless and impactful product.
+- **Precise Hand Tracking**: Utilizes Ultraleap technology for detailed hand gesture recognition.
+- **Vibrotactile Haptics**: Implements ESP32 and vibration sensors for nuanced haptic feedback.
+- **Seamless Integration**: Compatible with Unity and various VR platforms.
+- **Enhanced Realism**: Provides subtle feedback to improve interactivity and immersion.
 
-## Challenges we ran into
-Throughout the development process, we faced challenges in optimizing the synchronization between hand tracking and haptic feedback, ensuring a natural and responsive user experience. Overcoming technical hurdles and fine-tuning the system for different applications required dedicated effort and problem-solving.
+## Technology Stack
 
-## Accomplishments that we're proud of
-We take pride in achieving a successful integration of Ultraleap hand tracking and vibrotactile haptics, delivering a product that elevates the standard for virtual reality interactions. Our accomplishment lies in creating an immersive experience that adds a subtle yet significant layer of realism to virtual environments. Very useful for enterprises/businesses in the globe 
+- **Hardware**:
+  - Ultraleap hand tracking device
+  - ESP32 microcontroller
+  - Arduino Uno (for specific prototyping purposes)
+- **Software**:
+  - Development Platform: Unity
+  - SDKs and Tools: Custom-built algorithms for haptic response, integration support for Oculus
+- **Operating System**: Compatible with various platforms supporting Unity
 
-## What we learned
-The development of SHIVR provided valuable insights into the intricate relationship between hand tracking and haptic feedback. We gained a deeper understanding of user expectations in virtual environments and the importance of nuanced haptic sensations for a truly immersive experience. 
+## Installation
 
+1. Set up your VR hardware, including Ultraleap and ESP32 connections.
+2. Clone the SHIVR repository to your local system.
+3. Open the project in Unity.
+4. Connect ESP32 and load the firmware using Arduino IDE as necessary.
+5. Import the required hand tracking SDKs and custom SHIVR scripts.
+6. Build and run the project on your VR platform.
 
-## What's next for SHIVR - Subtle Haptics in Virtual Environments
-As we look to the future, the next steps for SHIVR involve expanding its applications across diverse industries, refining the user experience based on feedback, and exploring innovative ways to incorporate advanced hand gestures and haptic feedback for an even more immersive virtual reality experience. It can be 
+## Usage
 
+1. Launch the SHIVR-enabled application in Unity.
+2. Use Ultraleap-enabled hand gestures to interact within the VR environment.
+3. Experience subtle haptic feedback that adjusts based on hand movements and interactions.
+4. Modify or customize the feedback settings through Unity for tailored user experiences.
 
-## Technologies
+## Development Process
 
-ESP 32 
-![WhatsApp_Image_2023-11-12_at_9 06 10_AM](https://github.com/leonkoech/SHIVR-SDK/assets/39020723/b37561ee-0565-4ca2-bc3e-6d1ffe3f70a2)
+1. **Conceptualization**: Identified the need for subtle, vibrotactile feedback to complement visual and auditory VR cues.
+2. **Prototyping**: Developed initial hand-tracking modules with haptic integration using ESP32 and vibration sensors.
+3. **Integration and Testing**: Refined haptic feedback synchronization to ensure fluid, responsive interactions in VR.
+4. **User Testing**: Collaborated with testers to gather insights and adjust feedback frequency for maximum effectiveness.
 
-Unity
-![Screenshot (226)](https://github.com/leonkoech/SHIVR-SDK/assets/39020723/e149a019-6ff6-4d39-8f8d-32ad64bebecd)
+## Challenges and Solutions
 
-ESP 32 output
-![Screenshot_2023-11-12_085519](https://github.com/leonkoech/SHIVR-SDK/assets/39020723/ada10504-a57a-4a27-ace7-b017195eb220)
+| Challenge | Solution |
+|-----------|----------|
+| Synchronizing hand tracking with feedback | Optimized response algorithms for real-time interaction |
+| Ensuring seamless feedback integration | Leveraged ESP32 firmware customization |
+| Limited access to hardware during testing | Utilized simulations and virtual testing environments |
 
-Algorithm
+## Future Work
 
-![IMG_0654](https://github.com/leonkoech/SHIVR-SDK/assets/39020723/5415d044-3ac6-4354-ad32-74c58370a330)
+- Enhancing compatibility with more VR platforms.
+- Introducing adaptive feedback for various hand gestures.
+- Expanding applications for training simulations and interactive VR storytelling.
+- Adding customizable user settings for haptic intensity.
 
+## Team
 
+<table>
+  <tr>
+    <td>
+      This project was made possible by the collaboration and expertise of the SHIVR team, dedicated to enhancing VR through the intersection of tactile feedback and cutting-edge technology.
+    </td>
+  </tr>
+</table>
+
+## Demo and Showcase
+
+- [Project Demonstration Video](https://photos.app.goo.gl/2GCe3nBR772Doe9V9)
+- [In-depth Presentation](https://youtu.be/4b5lR5_ubpw)
