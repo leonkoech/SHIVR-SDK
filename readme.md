@@ -2,16 +2,12 @@
 
 ## Subtle Haptics in Virtual Reality (SHIVR)
 
-<table>
-  <tr>
-    <td>
-      SHIVR is an innovative SDK that empowers developers to integrate vibrotactile haptic feedback with Ultraleap hand tracking for refined, subtle hand interactions within Virtual Reality (VR) environments. SHIVR is designed to elevate VR experiences, providing users with a deeper sense of immersion and engagement through nuanced tactile sensations.
-    </td>
-    <td>
-      <img src="https://github.com/leonkoech/SHIVR-Hardware/assets/39020723/e920845b-a6e6-4082-a98e-5a6693d505b5" alt="project overview" width="600px">
-    </td>
-  </tr>
-</table>
+
+SHIVR is an innovative SDK that empowers developers to integrate vibrotactile haptic feedback with Ultraleap hand tracking for refined, subtle hand interactions within Virtual Reality (VR) environments. SHIVR is designed to elevate VR experiences, providing users with a deeper sense of immersion and engagement through nuanced tactile sensations.
+
+![SHIVR image](https://github.com/user-attachments/assets/15769e5c-746b-4dc0-9b4f-c5c8e25eebcf)
+
+
 
 ## Table of Contents
 
@@ -49,9 +45,21 @@
 ## Technology Stack
 
 - **Hardware**:
-  - Ultraleap hand tracking device
-  - ESP32 microcontroller
-  - Arduino Uno (for specific prototyping purposes)
+<table>
+  <tr>
+    <td>
+    <ul>
+    <li>Ultraleap hand tracking device</li>
+   <li>ESP32 microcontroller</li>
+   <li>Arduino Uno (for specific prototyping purposes)</li>
+    </ul>
+    </td>
+    <td>
+      <img src="https://github.com/leonkoech/SHIVR-Hardware/assets/39020723/e920845b-a6e6-4082-a98e-5a6693d505b5" alt="Unity interface" width="500px">
+    </td>
+  </tr>
+</table>
+
 - **Software**:
   - Development Platform: Unity
   - SDKs and Tools: Custom-built algorithms for haptic response, integration support for Oculus
@@ -96,16 +104,11 @@
 - Adding customizable user settings for haptic intensity.
 
 ## Team
+<img src="https://github.com/user-attachments/assets/6ddc95b3-94b9-41f6-8e2e-1dd01ef391e9" alt="project overview" width="600px">
 
-<table>
-  <tr>
-    <td>
-      This project was made possible by the collaboration and expertise of the SHIVR team, dedicated to enhancing VR through the intersection of tactile feedback and cutting-edge technology.
-    </td>
-  </tr>
-</table>
 
-## Demo and Showcase
+This project received the 'Best use of hardware' award at [Immerse The Bay](https://immersethebay.stanfordxr.org/) at Stanford University 2023 organized by [Stanford XR Club](https://www.stanfordxr.org/about)
 
-- [Project Demonstration Video](https://photos.app.goo.gl/2GCe3nBR772Doe9V9)
-- [In-depth Presentation](https://youtu.be/4b5lR5_ubpw)
+It was made possible by the collaboration and expertise of the SHIVR team, dedicated to enhancing VR through the intersection of tactile feedback and cutting-edge technology.
+
+
